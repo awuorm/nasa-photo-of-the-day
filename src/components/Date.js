@@ -5,7 +5,7 @@ function Datecomponent (props){
     return (
         <div>
             <h3>Date: {date}</h3>
-            <h3>URL of image: {url}</h3>  
+            <a  className="url-a" href="#">URL of image: {url}</a>  
         </div>
     );
 

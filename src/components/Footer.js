@@ -5,11 +5,11 @@ function Footer() {
     return(
         <footer className ="footer-cont">
             <nav className="footer-a">
-                <a>Home</a>
-                <a>Gallery</a>
-                <a>About</a>
+                <a href="#">Home</a>
+                <a href="#">Gallery</a>
+                <a href="#">About</a>
             </nav>
-            <h3 className="copyright">Copyright Mildred Awuor 2019</h3>
+            <h4 className="copyright">Copyright Mildred Awuor 2019</h4>
         </footer>
     )
 

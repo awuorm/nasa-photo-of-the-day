@@ -85,6 +85,10 @@ a {
 a {
   margin: 0.5m;
   padding: 0.5em;
+  text-decoration: none;
+}
+.url-a {
+  color: black;
 }
 
 .copyright {
