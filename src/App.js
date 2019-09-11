@@ -1,12 +1,12 @@
 import React, {useState,useEffect} from "react";
 import "./App.css";
 import axios from 'axios';
-import Photocreator from "./Photo";
-import Datecomponent from "./Date";
-import Navigation from "./Nav";
-import Footer from "./Footer";
-import Titlecomponent from "./Title";
-import Storycomponent from "./Story";
+import Photocreator from "./components/Photo";
+import Datecomponent from "./components/Date";
+import Navigation from "./components/Nav";
+import Footer from "./components/Footer";
+import Titlecomponent from "./components/Title";
+import Storycomponent from "./components/Story";
 
 function App() {
  const [photo ,setPhoto] = useState("");

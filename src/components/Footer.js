@@ -9,7 +9,7 @@ function Footer() {
                 <a>Gallery</a>
                 <a>About</a>
             </nav>
-            <h3>Copyright Mildred Awuor 2019</h3>
+            <h3 className="copyright">Copyright Mildred Awuor 2019</h3>
         </footer>
     )
 
