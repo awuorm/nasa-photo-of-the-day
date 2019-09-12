@@ -31,3 +31,87 @@
     transform: rotate(360deg);
   }
 }
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+ background-color: #0f0c29; 
+
+
+}
+.nav-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+a {
+  color: white;
+}
+
+.nasa-logo {
+  width: 10%;
+}
+
+.apod-card {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: baseline;  */
+  width:100%;
+  /* flex-direction: column; */
+}
+
+.apod-photo img {
+  width:50vw;
+  height: 50vh;
+
+}
+
+.footer-cont {
+  background-color: #0f0c29; 
+  margin-bottom: none;
+
+
+}
+
+.footer-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 30%;
+  flex-direction: column;
+  margin: 1em;
+}
+a {
+  margin: 0.5m;
+  padding: 0.5em;
+  text-decoration: none;
+}
+.url-a {
+  color: black;
+}
+
+.copyright {
+ color: white;
+ margin-bottom: none;
+}
+
+.form-date {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightblue;
+}
+
+button{
+  background-color: #0f0c29;
+  color: white;
+  font-size: 1em;
+  margin: 0.8em;
+  padding: 0.5em;
+}
+
+input {
+  padding: 0.5em;
+  width: 40%;
+}
