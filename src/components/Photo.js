@@ -1,11 +1,20 @@
 import React from "react";
+import styled from "styled-components";
 
 function Photocreator (props) {
-    const photo = props.photo;
+    const { photo } = props;
+    const Figure = styled.figure`
+        width:50vw;
+        height: 50vh;
+       margin-left: 20%;
+  `;
+    const Image = styled.img`
+      
+    `;
     return(
-        <figure className="apod-photo">
-            <img alt="image-of-the-day" src ={photo}/>
-        </figure>
+        <Figure className="apod-photo">
+            <Image alt="image-of-the-day" src ={photo}/>
+        </Figure>
     )
 }
 
