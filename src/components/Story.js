@@ -5,9 +5,6 @@ function Storycomponent (props) {
     return(
         <p>{story}</p>
     )
-
-
-
 }
 
 export default Storycomponent;
