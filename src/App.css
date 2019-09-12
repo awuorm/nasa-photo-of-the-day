@@ -98,8 +98,9 @@ a {
 
 .form-date {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  background-color: lightblue;
 }
 
 button{
@@ -112,4 +113,5 @@ button{
 
 input {
   padding: 0.5em;
+  width: 40%;
 }

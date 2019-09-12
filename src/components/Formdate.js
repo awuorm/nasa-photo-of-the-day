@@ -1,15 +1,18 @@
 import React from "react";
+import Formlabel from "./Formlabel";
+import Formbutton from "../Formbutton";
+
 
 function Formcomponent (){
     
     return (
             <div className="form-date">
-            <label>Select a date to view photo of the day</label>
-            <input type="date" ></input>
-            <button>Submit</button>
+                <Formlabel/>
+                <input type="date" ></input>
+                <Formbutton/>
             </div>
     );
 
 }
 
-export default Datecomponent;
+export default Formcomponent;

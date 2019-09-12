@@ -7,6 +7,7 @@ import Navigation from "./components/Nav";
 import Footer from "./components/Footer";
 import Titlecomponent from "./components/Title";
 import Storycomponent from "./components/Story";
+import Formcomponent from "./components/Formdate";
 
 function App() {
  const [photo ,setPhoto] = useState("");
@@ -42,6 +43,7 @@ function App() {
       <Titlecomponent title={title}/>
       <Photocreator photo={photo} />
       <Datecomponent date={date} url={url} />
+      <Formcomponent/>
       <Storycomponent story={story}/>
       </div>
       
