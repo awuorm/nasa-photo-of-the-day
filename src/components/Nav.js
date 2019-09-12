@@ -30,7 +30,6 @@ function Navigation () {
             </Nav>
         </DivNav>
     )
-
 }
 
 export default Navigation;
